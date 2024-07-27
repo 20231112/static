@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apps on </title>
+    <link>https://delightful-ocean-0d6a69c00.5.azurestaticapps.net/apps/</link>
+    <description>Recent content in Apps on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://delightful-ocean-0d6a69c00.5.azurestaticapps.net/apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chat</title>
+      <link>https://delightful-ocean-0d6a69c00.5.azurestaticapps.net/apps/no1/</link>
+      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://delightful-ocean-0d6a69c00.5.azurestaticapps.net/apps/no1/</guid>
+      <description>Renderにて無料でデプロイしました。 起動まで1分ほどかかります。。[7/20時点]
+Azureの無料枠に移行[7/27時点]</description>
+    </item>
+  </channel>
+</rss>
