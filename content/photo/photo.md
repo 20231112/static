@@ -5,7 +5,7 @@ type: page
 weight: 1
 showTableOfContents: true
 ---
-iPhoneで撮ってます。
+iPhoneで撮ってます
 <html>
 <head>
 <style>
