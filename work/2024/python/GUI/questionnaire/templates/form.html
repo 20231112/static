@@ -1,0 +1,101 @@
+<html lang="ja">
+<head>
+	<title>test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<form class="form-horizontal" action="/" method="POST">
+					<div class="page-header">
+						<!-- アンケートフォームのタイトルを決めます。 -->
+						<h1><small>test</small></h1>
+					</div>
+					<div>
+						<p>test</p>
+					</div>
+					<section class="panel panel-default">
+						<div class="panel-heading">
+							<!-- サブタイトルを記載してください -->
+							test
+						</div>
+							<!--  -->
+						<div class="panel-body">
+
+							<!-- ラジオボタン形式をご活用の場合は、下記ソースをご活用ください -->
+								<!-- radio start-->
+								<article class="form-group">
+									<label class="col-sm-2 control-label" form="sex">性別</label>
+									<div class="col-sm-10">
+										<div class="radio">
+											<label><input type="radio" name="sex" value="male">男性</label>
+										</div>
+										<div class="radio">
+											<label><input type="radio" name="sex" value="female">女性</label>
+										</div>
+
+										<div class="radio">
+											<label><input type="radio" name="sex" value="other">その他</label>
+										</div>
+									</div>
+								</article>
+								<!-- radio end -->
+
+								<!-- textarea end-->
+						</div>
+					</section>
+
+					<!--  -->
+					<input type="hidden" name="__score__" value="100">
+
+					<!--  -->
+					<section class="panel panel-default">
+						<div class="panel-body">
+						<article>
+							<div class="col-sm-12">
+                                
+								<!--
+                                <button type="button" id="submit" class="btn btn-primary btn-block btn-lg">送信</button>
+-->
+                                <input type="submit" value="送信" class="btn btn-primary btn-block btn-lg">
+
+
+							</div>
+
+						</article>
+        
+						</div>
+                        
+					</section>
+				</form>
+                                            <center>
+                    <table border="4"  width="80%" cellspacing="3" cellpadding="3" bordercolor="#666">
+    <tr>
+      <th>性別</th>
+      <th>回数</th>
+    </tr>
+                        
+    <tr>
+      <td>男性</td>
+      <td>{{male}}</td>
+    </tr>
+                        
+    <tr>
+      <td>女性</td>
+      <td>{{female}}</td>
+    </tr>
+                        
+    <tr>
+      <td>その他</td>
+      <td>{{other}}</td>
+    </tr>
+  </table>
+                                </center>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
