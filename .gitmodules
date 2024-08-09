@@ -1,0 +1,21 @@
+[submodule "hugo/mysite3/themes/holy"]
+	path = hugo/mysite3/themes/holy
+	url = https://github.com/serkodev/holy.git
+[submodule "hugo/mysite1/themes/etch"]
+	path = hugo/mysite1/themes/etch
+	url = https://github.com/LukasJoswiak/etch.git
+[submodule "hugo/themes/gokarna"]
+	path = hugo/themes/gokarna
+	url = https://github.com/526avijitgupta/gokarna.git
+[submodule "hugo/mysite3/themes/gokarna"]
+	path = hugo/mysite3/themes/gokarna
+	url = https://github.com/526avijitgupta/gokarna.git
+[submodule "hugo/mysite_dkato1/themes/virgo"]
+	path = hugo/mysite_dkato1/themes/virgo
+	url = https://github.com/loveminimal/hugo-theme-virgo.git
+[submodule "hugo/dkato2/themes/virgo"]
+	path = hugo/dkato2/themes/virgo
+	url = https://github.com/loveminimal/hugo-theme-virgo.git
+[submodule "hugo/dkato3/themes/tella"]
+	path = hugo/dkato3/themes/tella
+	url = https://github.com/opera7133/tella.git
