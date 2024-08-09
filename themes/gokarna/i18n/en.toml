@@ -1,0 +1,14 @@
+[Recent]
+  other = 'Recent'
+[error404]
+  other = ''
+[home]
+  other = ''
+[nothing]
+  other = ''
+[previous]
+  other = 'Previous'
+[next]
+  other = 'Next'
+[tags]
+  other = 'Tags'
